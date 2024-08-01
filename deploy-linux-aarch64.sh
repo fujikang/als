@@ -8,7 +8,7 @@ cd ${workspace}
 # 下载, arm 机器替换 x86_64 为 aarch64
 OS_ARCH="aarch64"
 #下载部署包
-wget --no-check-certificate -qO "als-linux-${OS_ARCH}.zip"  "https://github.com/fujikang/als/releases/download/als-linux-${OS_ARCH}.zip"
+wget --no-check-certificate -qO "als-linux-${OS_ARCH}.zip"  "https://github.com/fujikang/als/releases/download/deploy/als-linux-${OS_ARCH}.zip"
 #解压部署包
 unzip -o "als-linux-${OS_ARCH}.zip"
 
