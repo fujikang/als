@@ -1,0 +1,15 @@
+[Unit]
+Description=ALS - 另一个 Looking-glass 服务器
+After=syslog.target network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/als/
+ExecStart=/opt/als/als-linux-arm64
+Restart=on-failure
+RestartSec=30
+
+
+Environment=HTTP_PORT='1234'
+[Install]
+WantedBy=multi-user.target
