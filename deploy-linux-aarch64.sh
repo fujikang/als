@@ -30,14 +30,3 @@ systemctl start als-linux-${OS_ARCH}
 
 # 状态查看
 systemctl status als-linux-${OS_ARCH}
-
-
-
-# 停止
-# systemctl stop stat_server
-# systemctl stop stat_client
-
-# https://fedoraproject.org/wiki/Systemd/zh-cn
-# https://docs.fedoraproject.org/en-US/quick-docs/understanding-and-administering-systemd/index.html
-
-# 修改 /etc/systemd/system/stat_client.service 文件，将IP改为你服务器的IP或你的域名
