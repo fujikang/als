@@ -16,7 +16,7 @@ unzip -o "als-linux-${OS_ARCH}.zip"
 mv -v als-linux-${OS_ARCH}.service /etc/systemd/system/als-linux-${OS_ARCH}.service
 
 #处理可执行包
-chmod +X /opt/als/als-linux-${OS_ARCH} 
+chmod +x /opt/als/als-linux-${OS_ARCH} 
 
 rm -rf als-linux-${OS_ARCH}.zip
 
